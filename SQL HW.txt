@@ -21,7 +21,7 @@ create table products(
 
 create table countries(
     code int primary key ,
-    name varchar(20) not null ,
+    name varchar(20) unique not null ,
     continent_name varchar(20) not null
 );
 
